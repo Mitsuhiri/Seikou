@@ -4,6 +4,7 @@ Game Gacha waifu dengan fitur :
 2. Buka inventory waifu
 3. Ceraikan waifu
 4. Buka List waifu
+5. Buka Statistik
 */
 #include<iostream>
 #include<cstdlib>
@@ -91,6 +92,7 @@ const int jumlahUncommon = size(uncommon);
 const int jumlahRare = size(rare);
 const int jumlahLegendary = size(legendary);
 const int jumlahMythical = size(mythical);
+
 #pragma endregion
 // Fungsi untuk cek waifu yang sudah punya
 bool cekDuplikat(string name, waifu inventory[], int jumlahWaifu){
@@ -424,6 +426,7 @@ int menu(int pilihan, int gems){
     cout << "        >----{ GACHA WAIFU }----<        \n";
     cout << "+=======================================+\n";
     cout << "  Gems kamu : " << gems << "\n";
+    cout << "  100 Gems/Gacha\n";
     cout << "-----------------------------------------\n";
     cout << "  [1] Gacha Waifu\n";
     cout << "  [2] Gacha Waifu 10x\n";
