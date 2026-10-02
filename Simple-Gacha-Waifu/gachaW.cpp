@@ -11,7 +11,7 @@ Game Gacha waifu dengan fitur :
 #include<ctime>
 #include<string>
 using namespace std;
-// Waifu 2.1
+// Waifu 2.2
 #pragma region Database_waifu
 struct waifu{
     string name;
@@ -426,7 +426,7 @@ int menu(int pilihan, int gems){
     cout << "        >----{ GACHA WAIFU }----<        \n";
     cout << "+=======================================+\n";
     cout << "  Gems kamu : " << gems << "\n";
-    cout << "  100 Gems/Gacha\n";
+    cout << "  100 Gems/Gacha\n";  
     cout << "-----------------------------------------\n";
     cout << "  [1] Gacha Waifu\n";
     cout << "  [2] Gacha Waifu 10x\n";

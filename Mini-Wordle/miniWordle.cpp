@@ -6,16 +6,27 @@ using namespace std;
 
 string kataRandom(){
     string random[] = {
-        "APPLE",
-        "CHAIR",
-        "BEACH",
-        "DANCE",
-        "FLAME",
-        "GRAPE",
-        "HOUSE",
-        "JUICE",
-        "KNIFE",
-        "EAGLE",
+        "APPLE", "CHAIR", "BEACH",
+        "DANCE", "FLAME", "GRAPE",
+        "HOUSE", "JUICE", "KNIFE",
+        "EAGLE", "BLACK", "WHITE",
+        "BREAD", "CLOCK", "DREAM",
+        "EARTH", "FLASH", "GLASS",
+        "HEART", "IMAGE", "LIGHT",
+        "MAGIC", "MUSIC", "NORTH",
+        "ONION", "PAPER", "RADIO",
+        "SHARK", "SMILE", "SPACE",
+        "STORM", "TABLE", "TRAIN",
+        "VOICE", "WORLD", "YOUTH",
+        "ANGEL", "BRAIN", "CLOUD",
+        "DRAFT", "FRUIT", "PLANT",
+        "BLOOM", "CANDY", "CRANE",
+        "DIAMY", "FLUTE", "GHOST",
+        "GREEN", "HONEY", "LEMON",
+        "MANGO", "NIGHT", "OCEAN",
+        "PIANO", "QUEEN", "RIVER",
+        "SNAKE", "TIGER", "WATER",
+        "YACHT", "ZEBRA", "NIGER",
     };
 
     const int jumlahKata = size(random);
